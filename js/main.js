@@ -8,15 +8,15 @@
     const n = Math.random();
     if (n < 0.05){
       btn.textContent = '大吉';
-    }else if (n < 0.15){
+    }else if (n < 0.20){
       btn.textContent = '中吉';
-    }else if (n < 0.25){
+    }else if (n < 0.35){
       btn.textContent = '小吉';
-    }else if (n < 0.45){
+    }else if (n < 0.55){
       btn.textContent = '末吉';
-    }else if (n < 0.65){
+    }else if (n < 0.85){
       btn.textContent = '吉';
-    }else if (n < 0.9){
+    }else if (n < 0.95){
       btn.textContent = '凶';
     }else{
       btn.textContent = '大凶';
